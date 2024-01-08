@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Jumbotron = (props) => {
     return (
-        <div className="jumbotron m-5 bg-light">
+        <div className="jumbotron m-5 bg-light" id="jumbotron">
             <h1 className="display-4">{props.title}</h1>
             <p>{props.description}</p>
             <a href={props.buttonURL} className="btn btn-primary">{props.buttonLabel}</a>

@@ -16,7 +16,9 @@ footer {
     padding: 2px;
   }
 
-  /* .navbar-toggler {
-    margin-right: 10px;
+  .navbar-toggler {
+    margin-right: 5px;
   }
-  */
+.container {
+  padding-top: 20px;
+}
